@@ -5,43 +5,37 @@
 ## Functionality
 | Functional                                                       | Supported |
 |------------------------------------------------------------------|:---------:|
-| Multithreading                                                   |     ✅     |
-| Binding a proxy to a session                                     |     ✅     |
-| Auto-complete tasks; claim points; claim daily boosts            |     ✅     |
-| Random sleep time between accounts, complete tasks, claim points |     ✅     |
-| Support pyrogram .session                                        |     ✅     |
-| Get statistics for all accounts                                  |     ✅     |
+| Auto 1x Tap                                                      |     ✅     |
+| Auto Claim Task                                                  |     ✅     |
+| Auto Join Squad Ghalibie                                         |     ✅     |
+| Auto Upgrade Fill Rate                                           |     ✅     |
+| Auto Upgrade Multi Value                                         |     ✅     |
+| Can Set Max Level (default 5)                                    |     ✅     |
+| Auto Use Energy Refill                                           |     ✅     |
+| Auto Use Chest                                                   |     ✅     |
+| Auto Get Free Chest                                              |     ✅     |
+| Multi Account                                                    |     ✅     |
 
-## Settings data/config.py
-| Setting                      | Description                                                                                    |
+
+## Installation
+| No.                      | Step                                                                                    |
 |------------------------------|------------------------------------------------------------------------------------------------|
-| **API_ID / API_HASH**        | Platform data from which to launch a Telegram session                                          |
-| **DELAYS-ACCOUNT**           | Delay between connections to accounts (the more accounts, the longer the delay)                |
-| **DELAYS-CLICKS**            | Delay between clicks                                                                           |
-| **DELAYS-TASKS**             | Delay between completed tasks                                                                  |
-| **COMPLETE_TASKS**           | Auto complete tasks True/False                                                                 |
-| **AUTOUPGRADE_FILL_RATE**    | Autoupgrade fill rate; [True/False (use/no use), max upgrade lvl]                              |
-| **MINIMUM_ENERGY**           | Minimum allowable energy                                                                       |
-| **BOOSTERS-USE_CHESTS**      | Spent daily boost chests True/False                                                            |
-| **BOOSTERS-USE_RECOVERY**    | Spent daily boost energy recover True/False                                                    |
-| **PROXY_TYPE**               | Proxy type for telegram session                                                                |
-| **WORKDIR**                  | directory with session                                                                         |
+| 1        | Download Python 3.12                                         |
+| 2           | Install Module (pip install requests colorama)                |
+| 3            | Open YesCoin Bot on PC (Telegram Desktop)                                                                           |
+| 4             | If it is open > right-click inspect                                                                  |
+| 5           | Open the network, then refresh the bot so that the network appears                                                                |
+| 6    | Take network login / getaccountinfo > in Request header get Token                              |
+| 7           | Paste eyJhbGcixx token in tokens.txt (multi just new line)                                                                       |
+| 8      | python yescoin.py (--task, --multi, --fill, --max-level)                                                            |
 
 ## Requirements
 - Python 3.9 (you can install it [here](https://www.python.org/downloads/release/python-390/)) 
-- Telegram API_ID and API_HASH (you can get them [here](https://my.telegram.org/auth))
 
-## Auto Install/Run
-- Click on Install.bat to automatically install the required dependencies 
-- Then click on START.bat to run the project
+## Auto Run
+- After adding the token, click on START.bat
 
 ## Menual Install/Run
-1. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-## Usage
 1. Run the bot:
    ```bash
    python main.py
