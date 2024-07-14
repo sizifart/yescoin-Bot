@@ -38,5 +38,5 @@
 ## Menual Install/Run
 1. Run the bot:
    ```bash
-   python main.py
+   python yescoin.py
    ```
