@@ -40,3 +40,7 @@
    ```bash
    python yescoin.py
    ```
+
+# Discussion
+
+If you have an question or something you can ask in here : [F.Davoodi](https://t.me/sizifart)
